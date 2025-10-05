@@ -9,8 +9,9 @@ for( int i=1; i<=n ; i++){
     double  A=  (i * (i + 1)) /2; // Vì 1+2+3+...+i = i*(i+1)/2
      s += pow(X , n) / A;
 }
-cout << "Gia tri cua s ("<< n , X<< ")"<< s << endl;
+cout << "Gia tri cua s ("<< n <<","<< X << ")"<< s << endl;
 return 0 ;
 }
+
 
 
