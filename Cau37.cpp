@@ -8,9 +8,10 @@ int main() {
  }
  long double S= pow(3 + sqrt(2) , 1.0/3);
  for ( int i=4;i <= n ; i++) {
-        S =pow (i + S,1.0/i);
+        S =pow (i + S,1.0/(i-1));
 
  }
 cout << "Gia tri cua S la " << fixed << setprecision(8) << S << endl;
   return 0;
 }
+
