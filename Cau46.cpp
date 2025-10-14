@@ -15,6 +15,7 @@ n/=10;
     }
     }
 
-  cout << " so luong chu so cua le  "<< giatribandaucuan << " la " << soluongsole << endl;
+  cout << " so luong chu so cua so  le  "<< giatribandaucuan << " la " << soluongsole << endl;
   return 0;
 }
+
