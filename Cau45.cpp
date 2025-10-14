@@ -8,6 +8,7 @@ int main() {
         tich *= n%10;
         n/=10;
   }
-  cout << " so luong chu so cua "<< giatribandaucuan << " la " << tich << endl;
+  cout << " tich cua cac chu so "<< giatribandaucuan << " la " << tich << endl;
   return 0;
 }
+
