@@ -8,6 +8,7 @@ int main() {
         tong += n%10;
         n/=10;
   }
-  cout << " so luong chu so cua "<< giatribandaucuan << " la " << tong << endl;
+  cout << "  Tong cac  chu so cua "<< giatribandaucuan << " la " << tong << endl;
   return 0;
 }
+
