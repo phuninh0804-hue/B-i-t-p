@@ -3,8 +3,9 @@ using namespace std;
 
 
 int main() {
-for( char a = 'A' ; a <= 'Z'; b++){
+for( char b = 'A' ; b <= 'Z'; b++){
     cout << b << " " << endl;
 }
     return 0;
 }
+
